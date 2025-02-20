@@ -3,35 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Calculator</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" id="display" class="display" disabled>
-        <div class="buttons">
-            <button class="btn" onclick="appendNumber(7)">7</button>
-            <button class="btn" onclick="appendNumber(8)">8</button>
-            <button class="btn" onclick="appendNumber(9)">9</button>
-            <button class="btn" onclick="setOperator('+')">+</button>
+    <!-- Header Section -->
+    <header>
+        <h1>Personal portfolio</h1>
+    </header>
 
-            <button class="btn" onclick="appendNumber(4)">4</button>
-            <button class="btn" onclick="appendNumber(5)">5</button>
-            <button class="btn" onclick="appendNumber(6)">6</button>
-            <button class="btn" onclick="setOperator('-')">-</button>
+    <!-- About Section -->
+    <section id="about">
+        <img src="C:\Users\THARUN R\Downloads\WhatsApp Image 2024-10-07 at 7.54.15 PM.jpeg" alt="Bhoomika">
+        <h2>BHOOMIKA R</h2>
+        <p>As a fresher i am looking forword to get an a opportunity to work with the company.
+        Passed my schooling and pre-university courers with decent percentage.As a techincal hand a have engaged in html,machine lerning and ui/ux designing courses.
+        i will always look forward to grab any opportunity that comes in my way.
+        </p>
+    </section>
 
-            <button class="btn" onclick="appendNumber(1)">1</button>
-            <button class="btn" onclick="appendNumber(2)">2</button>
-            <button class="btn" onclick="appendNumber(3)">3</button>
-            <button class="btn" onclick="setOperator('*')">*</button>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>UI/UX</li>
+        </ul>
+    </section>
+    <section id="skills">
+      <h2>Non-technical skills</h2>
+      <ul>
+        <li>Communiation skills</li>
+        <li>Management skills</li>
+        <li>Creativity</li>
+      </ul>
+    </section>
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <p>* Spreadsheet Modeling Course <a href="https://drive.google.com/file/d/1eoVnhkygYB5m6qqdmqG2SwkFSJN07l2-/view?usp=drive_link">Certificate</a></p>
+        <p>* Communication skills <a href="https://drive.google.com/file/d/1a3mB2-CxrjwNBhGEyv9HGAQ0VhOPf5hO/view?usp=sharing">Certificate</a></p>
+        <p>* NSS-WINGS Debet compitation <a href="https://drive.google.com/file/d/1cA-RkR1-qTa5_252H7GVohT8yGw9UKsu/view?usp=sharing">Certificate</a></p>
+        <p>* National level online quize conducted on statistics day <a href="https://drive.google.com/file/d/1l_d7f_MVJqjZqGqhxgK55zm8UmriP5BZ/view?usp=sharing">Certificate</a></p>
+        <p>* Centum in Business Studies <a href="https://drive.google.com/file/d/1dQuCEHhHdmVxvRzE-_QZki5yxvud7mPY/view?usp=sharing">Certificate</a></p>
+    </section>
 
-            <button class="btn" onclick="appendNumber(0)">0</button>
-            <button class="btn" onclick="clearDisplay()">C</button>
-            <button class="btn" onclick="calculateResult()">=</button>
-            <button class="btn" onclick="setOperator('/')">/</button>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Netflix users database</h3>
+            <p>Basically the project includes:
+                *preprocessing the users data by removing the duplicate data or replacing the missing value by manual idea or linear scaling method.
+                *added many model like linear regression and multi-linear regression and knn-model.
+            </p>
+            <img src="C:\Users\THARUN R\Downloads\project.jpeg" alt="Project Image">
+        </div>
+    </section>
+    <!---Hobbies--->
+    <div id="Hobbies">
+        <div class="container">
+            <h1 class="sub-title">My Hobbies</h1>
+            <div class="Hobbies-list">
+                <div>
+                    <h2>Drawing</h2>
+                    <p>I have a keen interest in drawing which 
+                        help relax and get away with my stress.</p>
+                </div>
+                <div>
+                    <h2>Reading Novels</h2>
+                    <p>Apart from drawing my most favorite hobby is Reading
+                        i ususally doesn't non-fic novels till date my favorite novels are here,there and everywhere by sudha murthy.</p>
+                </div>
+                <div>
+                    <h2>Sports</h2>
+                    <p>During my schooling i played throw ball till state-level 
+                        which was again my stress relives game and also badmiton.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="https://drive.google.com/file/d/1_BZKKF2TiLzKD7_6jJhnLy6aj91WxJBk/view?usp=drive_link" download>here</a>.</p>
+    </section>
 
-    <script src="scrpit.js"></script>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Personal Details</h2>
+        <p>Email: yadavbhoomika682@gmail.com</p>
+        <p>Phone: +91 9380140709</p>
+        <p>Linkdin:https://www.linkedin.com/in/bhoomika-yadav-46b041250</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Bhoomika R. All rights reserved.</p>
+    </footer>
 </body>
 </html>
